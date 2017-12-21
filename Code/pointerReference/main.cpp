@@ -41,6 +41,13 @@ void testPointer(){
     //null pointer
     int *p3 = NULL;
 
+    //void pointer
+    double obj = 3.14;
+    double *pd = &obj;
+    void *pv = &obj;//void pointer can hold a pointer to any type
+    pv = pd;
+
+
 }
 
 int main() {
