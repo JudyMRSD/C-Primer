@@ -2,11 +2,6 @@
 #import <deque>
 using namespace std;
 
-void testDeque(){
-
-
-}
-
 size_t InsertionIndex(deque<int>& values, int val){
     for (int i = 0; i<values.size(); i++){
         if (val<values[i]){
