@@ -5,7 +5,6 @@ using namespace std;
 using vecsz_t = std::vector<int>::size_type;
 
 
-//-------------------------------vector---------------------------------------------
 //input vector<int>& v passed by reference
 //size_t startIndex   contains the start index
 size_t GetSmallestIndex(vector<int>& v, size_t startIndex){
@@ -92,7 +91,6 @@ void testVector(){
     //myReal2(20, 137.0);
 
 }
-//-------------------------------deque---------------------------------------------
 
 
 void findMedian(){
